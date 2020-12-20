@@ -1784,3 +1784,213 @@ Instructions for updating:
 2020-12-18 14:52:30,710 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
 2020-12-18 14:54:35,013 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
 2020-12-18 14:55:12,925 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 14:56:28,046 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 14:56:28,070 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 14:56:28,091 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 14:56:28,102 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2020-12-18 14:56:28,106 [INFO] absl: Constructing tf.data.Dataset for split train[:98%], from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 14:56:29,299 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 14:56:29,308 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 14:56:29,313 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2020-12-18 14:56:29,316 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 14:56:32,474 [DEBUG] matplotlib.font_manager: findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2020-12-18 14:56:32,478 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,478 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 14:56:32,479 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,479 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,479 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 14:56:32,481 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-12-18 14:56:32,482 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 14:56:32,482 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,482 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2020-12-18 14:56:32,483 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2020-12-18 14:56:32,483 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,483 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,483 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 14:56:32,484 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 14:56:32,485 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,486 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2020-12-18 14:56:32,487 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,487 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,487 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,488 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,488 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,488 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,489 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2020-12-18 14:56:32,489 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 14:56:32,489 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 14:56:32,489 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 14:56:32,490 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,491 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,491 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,492 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,492 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2020-12-18 14:56:32,492 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2020-12-18 14:56:32,493 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 14:56:32,494 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,494 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 14:56:32,495 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,495 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 14:56:32,495 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2020-12-18 14:56:32,496 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,496 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 14:56:32,496 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+2020-12-18 14:56:32,497 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,498 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 14:56:32,499 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,499 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 14:56:32,500 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+2020-12-18 14:56:32,500 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 14:56:32,501 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,501 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 14:56:32,502 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 14:56:32,503 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Humor Sans' (Humor-Sans.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,503 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+2020-12-18 14:56:32,504 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+2020-12-18 14:56:32,504 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 14:56:32,505 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 14:56:32,506 [DEBUG] matplotlib.font_manager: findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python3.6/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-12-18 14:56:46,190 [DEBUG] absl: Compiling _fold_in for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True)).
+2020-12-18 14:56:46,426 [DEBUG] absl: Compiling _truncated_normal for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(int32[], weak_type=True)).
+2020-12-18 14:56:59,991 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2020-12-18 14:57:00,426 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2020-12-18 14:57:01,635 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2020-12-18 14:57:15,618 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2020-12-18 14:57:15,878 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2020-12-18 14:57:30,262 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2020-12-18 14:57:42,236 [WARNING] vit_jax.logging: Inspect recovered empty keys:
+{'pre_logits'}
+2020-12-18 14:57:42,240 [INFO] vit_jax.logging: load_pretrained: drop-head variant
+2020-12-18 14:57:57,103 [DEBUG] absl: Compiling _split for args (ShapedArray(uint32[2]),).
+2020-12-18 14:58:10,107 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 14:58:14,301 [DEBUG] absl: Compiling call for 8 devices with args (ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,1,145,768]), ShapedArray(float32[8,1,1,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,32,32,3,768]), ShapedArray(float32[8,10]), ShapedArray(float32[8,768,10]), ShapedArray(float32[8,64,384,384,3])). (num_replicas=8 num_partitions=1)
+2020-12-18 15:01:22,763 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 15:05:17,332 [DEBUG] matplotlib.font_manager: findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2020-12-18 15:05:17,334 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,335 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 15:05:17,335 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,337 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,338 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 15:05:17,339 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-12-18 15:05:17,341 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 15:05:17,342 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,344 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2020-12-18 15:05:17,346 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2020-12-18 15:05:17,347 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,347 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,347 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 15:05:17,349 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 15:05:17,351 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,352 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2020-12-18 15:05:17,353 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,353 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,353 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,355 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,356 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,356 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,357 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2020-12-18 15:05:17,358 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 15:05:17,359 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 15:05:17,361 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 15:05:17,361 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,362 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,363 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,364 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,365 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2020-12-18 15:05:17,365 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2020-12-18 15:05:17,365 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2020-12-18 15:05:17,366 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,366 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 15:05:17,367 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,367 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 15:05:17,367 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2020-12-18 15:05:17,368 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,368 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 15:05:17,368 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+2020-12-18 15:05:17,369 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,369 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 15:05:17,370 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,370 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+2020-12-18 15:05:17,370 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+2020-12-18 15:05:17,371 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 15:05:17,371 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,372 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 15:05:17,372 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2020-12-18 15:05:17,372 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Humor Sans' (Humor-Sans.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,373 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+2020-12-18 15:05:17,373 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+2020-12-18 15:05:17,374 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+2020-12-18 15:05:17,374 [DEBUG] matplotlib.font_manager: findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-12-18 15:05:17,374 [DEBUG] matplotlib.font_manager: findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python3.6/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-12-18 15:16:12,394 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 15:22:48,725 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 15:23:08,685 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 15:26:44,334 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 15:33:38,524 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 15:43:36,902 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d718240>
+2020-12-18 15:43:36,904 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 15:43:36,904 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d718240>
+2020-12-18 15:43:36,905 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 15:44:46,694 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 16:01:00,364 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d7e8d30>
+2020-12-18 16:01:00,365 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:01:00,365 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d7e8d30>
+2020-12-18 16:01:00,367 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:01:53,237 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d69b198>
+2020-12-18 16:01:53,239 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:01:53,240 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d69b198>
+2020-12-18 16:01:53,241 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:02:06,660 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04da4fd68>
+2020-12-18 16:02:06,661 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:02:06,661 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04da4fd68>
+2020-12-18 16:02:06,661 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:02:14,476 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d6cf668>
+2020-12-18 16:02:14,477 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:02:14,477 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d6cf668>
+2020-12-18 16:02:14,477 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:02:38,572 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04e082c18>
+2020-12-18 16:02:38,573 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:02:38,574 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04e082c18>
+2020-12-18 16:02:38,575 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:03:09,272 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04dab46d8>
+2020-12-18 16:03:09,273 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:03:09,273 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04dab46d8>
+2020-12-18 16:03:09,273 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:03:26,370 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04cf16cf8>
+2020-12-18 16:03:26,371 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:03:26,371 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04cf16cf8>
+2020-12-18 16:03:26,371 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:03:43,319 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04ce46358>
+2020-12-18 16:03:43,320 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:03:43,320 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04ce46358>
+2020-12-18 16:03:43,321 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:04:17,578 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04a1dca90>
+2020-12-18 16:04:17,579 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:04:17,579 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04a1dca90>
+2020-12-18 16:04:17,580 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:04:23,509 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04a1108d0>
+2020-12-18 16:04:23,510 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:04:23,511 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04a1108d0>
+2020-12-18 16:04:23,512 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:04:31,982 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04a044710>
+2020-12-18 16:04:31,983 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:04:31,983 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04a044710>
+2020-12-18 16:04:31,984 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:05:34,758 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 16:38:47,794 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d20fa20>
+2020-12-18 16:38:47,795 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:38:47,796 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d20fa20>
+2020-12-18 16:38:47,798 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:38:48,712 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04a8dcda0>
+2020-12-18 16:38:48,712 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 16:38:48,712 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04a8dcda0>
+2020-12-18 16:38:48,713 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 16:39:00,825 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-18 17:11:25,020 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d3e1ac8>
+2020-12-18 17:11:25,022 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 17:11:25,022 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb04d3e1ac8>
+2020-12-18 17:11:25,023 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-18 17:11:25,451 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb049fa74e0>
+2020-12-18 17:11:25,451 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
+2020-12-18 17:11:25,452 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb049fa74e0>
+2020-12-18 17:11:25,452 [DEBUG] matplotlib.colorbar: Setting pcolormesh
