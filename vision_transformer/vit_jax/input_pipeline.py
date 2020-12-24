@@ -60,7 +60,7 @@ def get_dataset_info(dataset, split):
   if dataset == 'imagenet2012':
     if split == 'train':
       num_examples = 1255543
-    elif split == 'test':
+    else:
       num_examples = 50000
     return {
         'num_examples': num_examples,
