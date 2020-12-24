@@ -56,7 +56,13 @@ DATASET_PRESETS = {
 
 def get_dataset_info(dataset, split):
   data_builder = tfds.builder(dataset)
-  num_examples = data_builder.info.splits[split].num_examples
+  if dataset == 'imagenet2012':
+    if split == 'train':
+      num_examples = 1255543
+    elif split == 'test':
+      num_examples = 50000
+  else:
+    num_examples = data_builder.info.splits[split].num_examples
   num_classes = data_builder.info.features['label'].num_classes
   return {
       'num_examples': num_examples,
