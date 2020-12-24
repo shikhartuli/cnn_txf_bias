@@ -59,7 +59,7 @@ def get_dataset_info(dataset, split):
   num_classes = data_builder.info.features['label'].num_classes
   if dataset == 'imagenet2012':
     if split == 'train':
-      num_examples = 1255543
+      num_examples = 1281167
     else:
       num_examples = 50000
     return {
@@ -115,8 +115,15 @@ def get_data(*,
 
   data_builder.download_and_prepare(
       download_config=tfds.download.DownloadConfig(manual_dir=tfds_manual_dir))
-  data = data_builder.as_dataset(
+
+  if dataset == 'imagenet2012' and mode == 'train':
+    data = data_builder.as_dataset(split = tfds.Split.TRAIN)
+  elif dataset == 'imagenet2012' and mode == 'test':
+    data = data_builder.as_dataset(split = tfds.Split.VALIDATION)
+  else:
+    data = data_builder.as_dataset(
       split=split, decoders={'image': tfds.decode.SkipDecoding()})
+
   decoder = data_builder.info.features['image'].decode_example
 
   def _pp(data):
