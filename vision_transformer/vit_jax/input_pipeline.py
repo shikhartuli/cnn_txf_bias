@@ -127,7 +127,11 @@ def get_data(*,
   decoder = data_builder.info.features['image'].decode_example
 
   def _pp(data):
-    im = decoder(data['image'])
+    try:
+      im = decoder(data['image'])
+    except:
+      data = data.map(lambda d: {'image': d['image'], 'label': d['label']})
+      im = data['image']
     if mode == 'train':
       if inception_crop:
         channels = im.shape[-1]
