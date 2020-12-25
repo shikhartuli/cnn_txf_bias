@@ -130,7 +130,6 @@ def get_data(*,
     try:
       im = decoder(data['image'])
     except:
-      data = data.map(lambda d: {'image': d['image'], 'label': d['label']})
       im = data['image']
     if mode == 'train':
       if inception_crop:
@@ -160,7 +159,13 @@ def get_data(*,
   data = data.repeat(repeats)
   if mode == 'train':
     data = data.shuffle(min(dataset_info['num_examples'], shuffle_buffer))
-  data = data.map(_pp, tf.data.experimental.AUTOTUNE)
+
+  try:
+    data = data.map(_pp, tf.data.experimental.AUTOTUNE)
+  except:
+    data = data.map(lambda d: {'image': d['image'], 'label': d['label']})
+    data = data.map(_pp, tf.data.experimental.AUTOTUNE)
+
   data = data.batch(batch_size, drop_remainder=True)
 
   def _mixup(data):
