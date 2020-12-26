@@ -28,6 +28,8 @@ if sys.platform != 'darwin':
 
 # Adjust depending on the available RAM.
 MAX_IN_MEMORY = 200_000
+TRAIN_SUBSET = '100000'
+VAL_SUBSET = ''
 
 DATASET_PRESETS = {
     'cifar10': {
@@ -45,8 +47,8 @@ DATASET_PRESETS = {
         'total_steps': 10_000,
     },
     'imagenet2012': {
-        'train': 'train[:99%]',
-        'test': 'validation',
+        'train': 'train[:' + TRAIN_SUBSET + ']',
+        'test': 'validation[:' + VAL_SUBSET + ']',
         'resize': 384,
         'crop': 384,
         'total_steps': 20_000,
@@ -58,10 +60,10 @@ def get_dataset_info(dataset, split):
   data_builder = tfds.builder(dataset)
   num_classes = data_builder.info.features['label'].num_classes
   if dataset == 'imagenet2012':
-    if split == 'train':
-      num_examples = 1281167
+    if 'train' in split:
+      num_examples = 1281167 if TRAIN_SUBSET == '' else eval(TRAIN_SUBSET)
     else:
-      num_examples = 50000
+      num_examples = 50000 if VAL_SUBSET == '' else  eval(VAL_SUBSET)
     return {
         'num_examples': num_examples,
         'num_classes': num_classes
@@ -117,9 +119,9 @@ def get_data(*,
       download_config=tfds.download.DownloadConfig(manual_dir=tfds_manual_dir))
 
   if dataset == 'imagenet2012' and mode == 'train':
-    data = data_builder.as_dataset(split = tfds.Split.TRAIN)
+    data = data_builder.as_dataset(split = split)
   elif dataset == 'imagenet2012' and mode == 'test':
-    data = data_builder.as_dataset(split = tfds.Split.VALIDATION)
+    data = data_builder.as_dataset(split = split)
   else:
     data = data_builder.as_dataset(
       split=split, decoders={'image': tfds.decode.SkipDecoding()})
