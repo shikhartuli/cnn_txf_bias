@@ -1994,3 +1994,148 @@ Instructions for updating:
 2020-12-18 17:11:25,451 [DEBUG] matplotlib.colorbar: Using auto colorbar locator on colorbar
 2020-12-18 17:11:25,452 [DEBUG] matplotlib.colorbar: locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fb049fa74e0>
 2020-12-18 17:11:25,452 [DEBUG] matplotlib.colorbar: Setting pcolormesh
+2020-12-24 13:32:39,489 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-24 13:32:40,142 [INFO] absl: Load dataset info from /tmp/tmplzdxbk5ptfds
+2020-12-24 13:32:40,148 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-24 13:47:47,266 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): 10.17.19.34:8475
+2020-12-24 13:48:06,477 [DEBUG] urllib3.connectionpool: http://10.17.19.34:8475 "POST /requestversion/tpu_driver0.1-dev20191206 HTTP/1.1" 200 3
+2020-12-24 13:48:27,366 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-24 13:48:27,664 [INFO] absl: Load dataset info from /tmp/tmprxabhfgwtfds
+2020-12-24 13:48:27,671 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-24 13:48:37,777 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-24 13:48:38,061 [INFO] absl: Load dataset info from /tmp/tmpqql705entfds
+2020-12-24 13:48:38,070 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-24 13:48:38,075 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-24 13:48:38,285 [INFO] absl: Load dataset info from /tmp/tmpdsfga5gotfds
+2020-12-24 13:48:38,290 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-24 13:48:38,296 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-24 13:48:38,508 [INFO] absl: Load dataset info from /tmp/tmphrcmtpeatfds
+2020-12-24 13:48:38,514 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-24 13:48:38,518 [INFO] absl: Generating dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2020-12-24 13:48:39,047 [INFO] absl: Downloading https://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz into /root/tensorflow_datasets/downloads/cs.toronto.edu_kriz_cifar-10-binaryODHPtIjLh3oLcXirEISTO7dkzyKjRCuol6lV8Wc6C7s.tar.gz.tmp.e4e7ab6b1cf1483494b5c68ebb28f639...
+2020-12-24 13:48:39,060 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.cs.toronto.edu:443
+2020-12-24 13:48:39,204 [DEBUG] urllib3.connectionpool: https://www.cs.toronto.edu:443 "GET /~kriz/cifar-10-binary.tar.gz HTTP/1.1" 200 170052171
+2020-12-24 13:48:44,473 [INFO] absl: Generating split train
+2020-12-24 13:49:23,074 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incomplete61MC1P/cifar10-train.tfrecord. Shard lengths: [50000]
+2020-12-24 13:49:23,080 [INFO] absl: Generating split test
+2020-12-24 13:49:31,400 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incomplete61MC1P/cifar10-test.tfrecord. Shard lengths: [10000]
+2020-12-24 13:49:31,413 [INFO] absl: Skipping computing stats for mode ComputeStatsMode.SKIP.
+2020-12-24 13:49:31,433 [INFO] absl: Constructing tf.data.Dataset for split train[:98%], from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-24 13:49:32,211 [WARNING] tensorflow: From /usr/local/lib/python3.6/dist-packages/tensorflow/python/util/dispatch.py:201: sample_distorted_bounding_box (from tensorflow.python.ops.image_ops_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+`seed2` arg is deprecated.Use sample_distorted_bounding_box_v2 instead.
+2020-12-24 13:49:32,354 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-24 13:49:32,364 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-24 13:49:32,372 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2020-12-24 13:49:32,374 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-25 10:48:13,016 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-25 10:48:13,609 [INFO] absl: Load dataset info from /tmp/tmpsmqfs9i_tfds
+2020-12-25 10:48:13,619 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-25 10:48:26,206 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: imagenet2012/5.1.0
+2020-12-25 10:48:26,528 [INFO] absl: Load dataset info from /tmp/tmpmhz6gt2ltfds
+2020-12-25 10:48:26,544 [INFO] absl: Field info.description from disk and from code do not match. Keeping the one from code.
+2020-12-25 13:23:08,953 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-25 13:23:09,440 [INFO] absl: Load dataset info from /tmp/tmpr7yy3259tfds
+2020-12-25 13:23:09,447 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-25 13:23:09,452 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-25 13:23:09,770 [INFO] absl: Load dataset info from /tmp/tmp466yailktfds
+2020-12-25 13:23:09,777 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-25 13:23:09,784 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-25 13:23:09,958 [INFO] absl: Load dataset info from /tmp/tmp9xi3vr9_tfds
+2020-12-25 13:23:09,965 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-25 13:23:09,969 [INFO] absl: Generating dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2020-12-25 13:23:10,497 [INFO] absl: Downloading https://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz into /root/tensorflow_datasets/downloads/cs.toronto.edu_kriz_cifar-10-binaryODHPtIjLh3oLcXirEISTO7dkzyKjRCuol6lV8Wc6C7s.tar.gz.tmp.1e46030790384a9fbb216a32cf3d1ae9...
+2020-12-25 13:23:10,520 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.cs.toronto.edu:443
+2020-12-25 13:23:10,660 [DEBUG] urllib3.connectionpool: https://www.cs.toronto.edu:443 "GET /~kriz/cifar-10-binary.tar.gz HTTP/1.1" 200 170052171
+2020-12-25 13:23:17,624 [INFO] absl: Generating split train
+2020-12-25 13:24:02,832 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incompleteHYU6UV/cifar10-train.tfrecord. Shard lengths: [50000]
+2020-12-25 13:24:02,839 [INFO] absl: Generating split test
+2020-12-25 13:24:12,172 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incompleteHYU6UV/cifar10-test.tfrecord. Shard lengths: [10000]
+2020-12-25 13:24:12,178 [INFO] absl: Skipping computing stats for mode ComputeStatsMode.SKIP.
+2020-12-25 13:24:12,191 [INFO] absl: Constructing tf.data.Dataset for split train[:98%], from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-25 13:24:12,710 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-25 13:24:12,719 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-25 13:24:12,729 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2020-12-25 13:24:12,731 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-25 13:27:42,058 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-25 13:27:42,496 [INFO] absl: Load dataset info from /tmp/tmpod9c0k9etfds
+2020-12-25 13:27:42,503 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-25 13:27:42,508 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-25 13:27:42,698 [INFO] absl: Load dataset info from /tmp/tmpzc3shfqmtfds
+2020-12-25 13:27:42,704 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-25 13:27:42,707 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2020-12-25 13:27:42,908 [INFO] absl: Load dataset info from /tmp/tmpngpr2h7ktfds
+2020-12-25 13:27:42,914 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2020-12-25 13:27:42,916 [INFO] absl: Generating dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2020-12-25 13:27:43,330 [INFO] absl: Downloading https://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz into /root/tensorflow_datasets/downloads/cs.toronto.edu_kriz_cifar-10-binaryODHPtIjLh3oLcXirEISTO7dkzyKjRCuol6lV8Wc6C7s.tar.gz.tmp.6be4806eb16f4eb6811f4136e9d9cc94...
+2020-12-25 13:27:43,349 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.cs.toronto.edu:443
+2020-12-25 13:27:43,463 [DEBUG] urllib3.connectionpool: https://www.cs.toronto.edu:443 "GET /~kriz/cifar-10-binary.tar.gz HTTP/1.1" 200 170052171
+2020-12-25 13:27:48,907 [INFO] absl: Generating split train
+2020-12-25 13:28:22,758 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incompleteKH2TUM/cifar10-train.tfrecord. Shard lengths: [50000]
+2020-12-25 13:28:22,764 [INFO] absl: Generating split test
+2020-12-25 13:28:29,604 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incompleteKH2TUM/cifar10-test.tfrecord. Shard lengths: [10000]
+2020-12-25 13:28:29,612 [INFO] absl: Skipping computing stats for mode ComputeStatsMode.SKIP.
+2020-12-25 13:28:29,619 [INFO] absl: Constructing tf.data.Dataset for split train[:98%], from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-25 13:28:30,262 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-25 13:28:30,271 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-25 13:28:30,279 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2020-12-25 13:28:30,282 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2020-12-25 13:28:38,746 [DEBUG] absl: Compiling _fold_in for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True)).
+2020-12-25 13:28:38,836 [DEBUG] absl: Compiling _truncated_normal for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(int32[], weak_type=True)).
+2020-12-25 13:28:39,385 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2020-12-25 13:28:39,617 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2020-12-25 13:28:39,912 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2020-12-25 13:28:40,133 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2020-12-25 13:28:40,358 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2020-12-25 13:28:40,578 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2020-12-27 08:13:21,392 [INFO] absl: Load dataset info from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:16:20,552 [INFO] absl: Load dataset info from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:30:35,384 [INFO] absl: Load dataset info from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:38:47,031 [INFO] absl: Load dataset info from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:44:41,908 [INFO] absl: Load dataset info from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:44:49,975 [INFO] absl: Load dataset info from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:53:27,923 [INFO] absl: Load dataset info from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:53:28,535 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: imagenet2012/5.1.0
+2020-12-27 08:53:28,934 [INFO] absl: Load dataset info from /tmp/tmp0v699g68tfds
+2020-12-27 08:53:28,946 [INFO] absl: Field info.description from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:53:28,948 [INFO] absl: Field info.module_name from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:53:28,950 [INFO] absl: Reusing dataset imagenet2012 (./tensorflow_datasets_subset/imagenet2012/5.1.0)
+2020-12-27 08:53:28,951 [INFO] absl: Constructing tf.data.Dataset for split validation[:], from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:53:57,656 [INFO] absl: Load dataset info from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:53:57,675 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: imagenet2012/5.1.0
+2020-12-27 08:53:57,962 [INFO] absl: Load dataset info from /tmp/tmp_tgjd7jgtfds
+2020-12-27 08:53:57,974 [INFO] absl: Field info.description from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:53:57,978 [INFO] absl: Field info.module_name from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:53:57,984 [INFO] absl: Reusing dataset imagenet2012 (./tensorflow_datasets_subset/imagenet2012/5.1.0)
+2020-12-27 08:53:57,985 [INFO] absl: Constructing tf.data.Dataset for split validation[:], from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:53:58,071 [INFO] absl: Load dataset info from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:53:58,089 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: imagenet2012/5.1.0
+2020-12-27 08:53:58,304 [INFO] absl: Load dataset info from /tmp/tmpt7cgs5_otfds
+2020-12-27 08:53:58,314 [INFO] absl: Field info.description from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:53:58,316 [INFO] absl: Field info.module_name from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:53:58,320 [INFO] absl: Reusing dataset imagenet2012 (./tensorflow_datasets_subset/imagenet2012/5.1.0)
+2020-12-27 08:53:58,322 [INFO] absl: Constructing tf.data.Dataset for split validation[:], from ./tensorflow_datasets_subset/imagenet2012/5.1.0
+2020-12-27 08:56:02,872 [DEBUG] absl: Compiling _fold_in for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True)).
+2020-12-27 08:56:03,051 [DEBUG] absl: Compiling _truncated_normal for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(int32[], weak_type=True)).
+2020-12-27 08:56:16,284 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2020-12-27 08:56:16,664 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2020-12-27 08:56:17,735 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2020-12-27 08:56:32,464 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2020-12-27 08:56:32,639 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2020-12-27 08:56:47,196 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2020-12-27 08:57:13,879 [WARNING] vit_jax.logging: Inspect recovered empty keys:
+{'pre_logits'}
+2020-12-27 08:57:13,885 [INFO] vit_jax.logging: load_pretrained: drop-head variant
+2020-12-27 08:58:09,019 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: imagenet2012/5.1.0
+2020-12-27 08:58:09,277 [INFO] absl: Load dataset info from /tmp/tmpyuqviehdtfds
+2020-12-27 08:58:09,287 [INFO] absl: Field info.description from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:58:09,289 [INFO] absl: Field info.module_name from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:59:10,453 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: imagenet2012/5.1.0
+2020-12-27 08:59:10,719 [INFO] absl: Load dataset info from /tmp/tmpz0hx9vketfds
+2020-12-27 08:59:10,732 [INFO] absl: Field info.description from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:59:10,734 [INFO] absl: Field info.module_name from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:59:18,062 [DEBUG] absl: Compiling call for 8 devices with args (ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072]), ShapedArray(float32[8,768,3072]), ShapedArray(float32[8,768]), ShapedArray(float32[8,3072,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,768]), ShapedArray(float32[8,12,64,768]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,12,64]), ShapedArray(float32[8,768,12,64]), ShapedArray(float32[8,1,145,768]), ShapedArray(float32[8,1,1,768]), ShapedArray(float32[8,768]), ShapedArray(float32[8,32,32,3,768]), ShapedArray(float32[8,1000]), ShapedArray(float32[8,768,1000]), ShapedArray(float32[8,64,384,384,3])). (num_replicas=8 num_partitions=1)
+2020-12-27 08:59:41,151 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: imagenet2012/5.1.0
+2020-12-27 08:59:41,456 [INFO] absl: Load dataset info from /tmp/tmpi084554xtfds
+2020-12-27 08:59:41,468 [INFO] absl: Field info.description from disk and from code do not match. Keeping the one from code.
+2020-12-27 08:59:41,470 [INFO] absl: Field info.module_name from disk and from code do not match. Keeping the one from code.
