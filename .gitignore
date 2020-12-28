@@ -1,1 +1,2 @@
 vision_transformer/tensorflow_datasets_subset
+*.pkl
