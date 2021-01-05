@@ -4,10 +4,10 @@
 #   Based on: R version 3.5.1
 ###################################################################
 
-source("data-analysis-helper-txf.R")
+source("data-analysis-helper_new.R")
 
-FIGUREPATH = "../figures-txf/"
-DATAPATH = "../raw-data-txf/"
+FIGUREPATH = "../figures_new_ft/"
+DATAPATH = "../raw-data_new/"
 
 # confidence intervals are simulated beforehand
 # and stored in the directory below. If you would like to 
@@ -47,7 +47,8 @@ pdf(file=paste(FIGUREPATH, "texture-shape_cue-conflict/texture-shape_cue-conflic
     width=6.5, 
     height=6.5)
 par(mfrow=c(1,1))
-PLOT.SUBJECTS = list(resnet, alexnet, vgg, googlenet, ViT_B_16, ViT_L_32)
+# PLOT.SUBJECTS = list(resnet, alexnet, vgg, googlenet, ViT_B_32, ViT_L_16)
+PLOT.SUBJECTS = list(resnet, resnet_ft, ViT_B_32, ViT_B_32_ft)
 plot.shape.bias(cueconfdat, plot.legend = TRUE, legend.position="topleft")
 dev.off()
 
@@ -76,7 +77,7 @@ for(dataset in DATASET.LIST) {
         width=figure.width, 
         height=figure.height)
     PLOT.SUBJECTS_CNN = list(alexnet, vgg, googlenet, resnet)
-    PLOT.SUBJECTS = list(alexnet, vgg, googlenet, resnet, ViT_B_16, ViT_L_32)
+    PLOT.SUBJECTS = list(alexnet, vgg, googlenet, resnet, resnet_ft, ViT_B_32, ViT_B_32_ft)
     PLOT.SUBJECTS_ViT = list(ViT_B_16, ViT_B_32, ViT_L_16, ViT_L_32)
     plot.consistency(dataset, method=method, legend.cex=0.9, distinguish.model.families = FALSE,
                      plot.bound=FALSE,
