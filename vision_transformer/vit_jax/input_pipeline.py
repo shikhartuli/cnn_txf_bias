@@ -28,7 +28,7 @@ if sys.platform != 'darwin':
 
 # Adjust depending on the available RAM.
 MAX_IN_MEMORY = 200_000
-TRAIN_SUBSET = '100000'
+TRAIN_SUBSET = ''
 VAL_SUBSET = ''
 
 DATASET_PRESETS = {
