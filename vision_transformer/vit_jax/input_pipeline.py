@@ -27,9 +27,10 @@ if sys.platform != 'darwin':
   resource.setrlimit(resource.RLIMIT_NOFILE, (high, high))
 
 # Adjust depending on the available RAM.
-MAX_IN_MEMORY = 200_000
+MAX_IN_MEMORY = 20_000
 TRAIN_SUBSET = ''
 VAL_SUBSET = ''
+DEBUG = True
 
 DATASET_PRESETS = {
     'cifar10': {
@@ -133,7 +134,7 @@ def get_data(*,
       im = decoder(data['image'])
     except:
       im = data['image']
-    if mode == 'train':
+    if mode == 'train' and not DEBUG:
       if inception_crop:
         channels = im.shape[-1]
         begin, size, _ = tf.image.sample_distorted_bounding_box(
@@ -159,7 +160,7 @@ def get_data(*,
     return {'image': im, 'label': label}
 
   data = data.repeat(repeats)
-  if mode == 'train':
+  if mode == 'train' and not DEBUG:
     data = data.shuffle(min(dataset_info['num_examples'], shuffle_buffer))
 
   try:
