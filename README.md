@@ -1,6 +1,6 @@
 # Inductive biases in CNNs and Transformers
 
-![Illustration](https://github.com/shikhartuli/cnn_txf_bias/blob/main/CNN_vs_Human.pdf?raw=true)
+![Illustration](https://github.com/shikhartuli/cnn_txf_bias/blob/main/CNN_vs_Human.png?raw=true)
 
 COS454 course project on the study of how human inductive biases can improve performance and training time in modern vision systems. 
 
