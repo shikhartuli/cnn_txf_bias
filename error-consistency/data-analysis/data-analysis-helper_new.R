@@ -92,11 +92,13 @@ vgg = list(name="VGG-16",
 resnet = list(name="ResNet-50",
               color="#4292c6",
               pch=21,
-              data.name="resnet50")
+              data.name="resnet50",
+              list.name="ResNet-50")
 resnet_ft = list(name="ResNet-50(ft.)",
               color="#296389",
               pch=21,
-              data.name="resnet50_ft")
+              data.name="resnet50_ft",
+              list.name="ResNet-50_ft")
 cornet.S = list(name="CORnet-S",
                 color="#D29600",
                 pch=21,
@@ -104,11 +106,13 @@ cornet.S = list(name="CORnet-S",
 ViT_B_32 = list(name="ViT-B_32",
             color="#F1C40F",
             pch=25,
-            data.name="ViT-B_32")
+            data.name="ViT-B_32",
+            list.name="ViT-B_32")
 ViT_B_32_ft = list(name="ViT-B_32(ft.)",
             color="#E67E22",
             pch=25,
-            data.name="ViT-B_32_ft")
+            data.name="ViT-B_32_ft",
+            list.name="ViT-B_32_ft")
 ViT_L_16 = list(name="ViT-L_16",
             color="#E67E22",
             pch=25,

@@ -123,7 +123,7 @@ for(dataset in DATASET.LIST) {
         kappas <- c(kappas, consistency[y.value.name][1,1])
         print(paste("Model: ", model$name, " ", "Cohen's kappa: ", consistency[y.value.name][1,1], sep=""))
         }
-        df[model$data.name] <- kappas
+        df[model$list.name] <- kappas
     } 
     write.csv(df, paste(dataset.path, "/", dataset.name, "_", method, ".csv", sep=""), row.names=FALSE)
   }
