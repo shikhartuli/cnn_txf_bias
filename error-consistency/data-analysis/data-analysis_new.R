@@ -83,97 +83,49 @@ for(dataset in DATASET.LIST) {
                      plot.bound=FALSE,
                      plot.legend=(method!="consistency"))
     dev.off()
-  
-    # pdf(file=paste(dataset.path, "/", dataset.name, "_", method, "_all_pytorch_models.pdf", sep=""), 
-    #     width=figure.width, 
-    #     height=figure.height)
-    # PLOT.SUBJECTS = subject.factory(dataset, PYTORCH.MODELS, distinguish.model.families = TRUE)
-    # if(method=="consistency") {
-    #   plot.consistency(dataset, method=method, plot.legend = FALSE, distinguish.model.families = TRUE)
-    # } else {
-    #   plot.consistency(dataset, method=method, distinguish.model.families = TRUE)
-    # }
-    # dev.off()
-    
-    # pdf(file=paste(dataset.path, "/", dataset.name, "_", method, "_cornet_S.pdf", sep=""), 
-    #     width=figure.width, 
-    #     height=figure.height)
-    # PLOT.SUBJECTS = list(resnet, cornet.S)
-    # plot.consistency(dataset, method=method, legend.cex=1.0, points.cex=1.2)
-    # dev.off()
   }
-  # for(top in c("top.1", "top.5")) {
-  #   pdf(file=paste(dataset.path, "/", dataset.name, "_kappa_vs_", top, "_accuracy.pdf", sep=""), 
-  #       width=figure.width+1, 
-  #       height=figure.height)
-  #   PLOT.SUBJECTS = subject.factory(dataset, PYTORCH.MODELS, distinguish.model.families = TRUE)
-  #   plot.consistency.vs.acc(dataset, x.value=top, plot.special.legend=dataset.name=="texture-shape_cue-conflict",
-  #                           plot.names=FALSE, y.axis.max.value=0.69)
-  #   dev.off()
-    
-    
-  #   pdf(file=paste(dataset.path, "/", dataset.name, "_kappa_vs_", top, "_accuracy_four_networks.pdf", sep=""), 
-  #       width=figure.width, 
-  #       height=figure.height)
-  #   PLOT.SUBJECTS = list(alexnet, vgg, googlenet, resnet)
-  #   plot.consistency.vs.acc(dataset, x.value=top,
-  #                           plot.names=FALSE, plot.average.CI=FALSE)
-  #   dev.off()
-  # }
+
+}
+
+###################################################################
+#    SAVE COHEN-KAPPA RESULTS
+###################################################################
+
+DATASET.LIST = list(edgedat, sildat, cueconfdat)
+
+figure.width = 5.0
+figure.height = 5.0
+
+for(dataset in DATASET.LIST) {
+  dataset.name = as.character(unique(dataset$experiment.name))
+  print(dataset.name)
+  if(length(dataset.name)>1) {
+    stop("dataset name mismatch")
+  }
+  dataset.path = paste(FIGUREPATH, dataset.name, sep="/")
+  if(!dir.exists(dataset.path)) {
+    dir.create(dataset.path)
+    print(paste("creating directory ", dataset.path, sep=""))
+  }
+  for(method in c("kappa")) { 
+    MODELS = list(ViT_B_32, ViT_B_32_ft, resnet, resnet_ft)
+
+    y.value.name = "cohens.kappa"
+    x.value.name = "expected.consistency"
+
+    s_no <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    df <- data.frame(s_no)
+
+    for(model in MODELS) {
+    	kappas = c()
+        for(subj1 in unique(dataset[dataset$is.human==TRUE, ]$subj)) {
+        consistency = consistency.analysis(dataset, obs1=subj1, obs2 = model$data.name)
+        kappas <- c(kappas, consistency[y.value.name][1,1])
+        print(paste("Model: ", model$name, " ", "Cohen's kappa: ", consistency[y.value.name][1,1], sep=""))
+        }
+        df[model$data.name] <- kappas
+    } 
+    write.csv(df, paste(dataset.path, "/", dataset.name, "_", method, ".csv", sep=""), row.names=FALSE)
+  }
   
-  # # Brain-Score plotting
-  # PLOT.SUBJECTS = subject.factory(dataset, BRAINSCORE.MODELS, distinguish.model.families = TRUE)
-  # pdf(file=paste(dataset.path, "/", dataset.name, "_kappa_vs_", "BrainScore_average.pdf", sep=""), 
-  #     width=figure.width+1, 
-  #     height=figure.height)
-  # plot.consistency.vs.acc(dataset, x.value="avg", plot.names=FALSE,
-  #                         x.axis.dataset = BrainScore, xlab="Brain-Score: 'average' score",
-  #                         x.range=c(0.28, 0.4), x.pos.text.label=0.385,
-  #                         y.axis.max.value=0.69)
-  # dev.off()
-  
-  # pdf(file=paste(dataset.path, "/", dataset.name, "_kappa_vs_", "BrainScore_behaviour.pdf", sep=""), 
-  #     width=figure.width+1, 
-  #     height=figure.height)
-  # plot.consistency.vs.acc(dataset, x.value="behaviour", plot.names=FALSE,
-  #                         x.axis.dataset = BrainScore, x.range = c(0.25, 0.6),
-  #                         xlab="Brain-Score: 'behaviour' score", x.pos.text.label=0.415,
-  #                         y.axis.max.value=0.69)
-  # dev.off()
-  
-  # pdf(file=paste(dataset.path, "/", dataset.name, "_kappa_vs_", "BrainScore_V1.pdf", sep=""), 
-  #     width=figure.width+1, 
-  #     height=figure.height)
-  # plot.consistency.vs.acc(dataset, x.value="V1", plot.names=FALSE,
-  #                         x.axis.dataset = BrainScore, x.range = c(0.16, 0.25),
-  #                         xlab="Brain-Score: 'V1' score", x.pos.text.label=0.233,
-  #                         y.axis.max.value=0.69)
-  # dev.off()
-  
-  # pdf(file=paste(dataset.path, "/", dataset.name, "_kappa_vs_", "BrainScore_V2.pdf", sep=""), 
-  #     width=figure.width+1, 
-  #     height=figure.height)
-  # plot.consistency.vs.acc(dataset, x.value="V2", plot.names=FALSE,
-  #                         x.axis.dataset = BrainScore, x.range = c(0.22, 0.3),
-  #                         xlab="Brain-Score: 'V2' score", x.pos.text.label=0.24,
-  #                         y.axis.max.value=0.69)
-  # dev.off()
-  
-  # pdf(file=paste(dataset.path, "/", dataset.name, "_kappa_vs_", "BrainScore_V4.pdf", sep=""), 
-  #     width=figure.width+1, 
-  #     height=figure.height)
-  # plot.consistency.vs.acc(dataset, x.value="V4", plot.names=FALSE,
-  #                         x.axis.dataset = BrainScore, x.range = c(0.55, 0.65),
-  #                         xlab="Brain-Score: 'V4' score", x.pos.text.label=0.64,
-  #                         y.axis.max.value=0.69)
-  # dev.off()
-  
-  # pdf(file=paste(dataset.path, "/", dataset.name, "_kappa_vs_", "BrainScore_IT.pdf", sep=""), 
-  #     width=figure.width+1, 
-  #     height=figure.height)
-  # plot.consistency.vs.acc(dataset, x.value="IT", plot.names=FALSE,
-  #                         x.axis.dataset = BrainScore, x.range = c(0.45, 0.6),
-  #                         xlab="Brain-Score: 'IT' score", x.pos.text.label=0.58,
-  #                         y.axis.max.value=0.69)
-  # dev.off()
 }
