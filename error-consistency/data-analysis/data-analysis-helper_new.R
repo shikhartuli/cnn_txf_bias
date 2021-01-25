@@ -57,6 +57,7 @@ IMAGENET.ACC = data.frame(model.name=c("alexnet", "vgg11-bn", "vgg13-bn", "vgg16
 ###################################################################
 
 human.100 = rgb(165, 30, 55, maxColorValue = 255)
+# human.100 = rgb(59, 179, 0, maxColorValue = 255)
 human.80 = rgb(180, 77, 80, maxColorValue = 255)
 human.70 = rgb(188, 98, 97, maxColorValue = 255)
 human.60 = rgb(197, 121, 116, maxColorValue = 255)
@@ -68,6 +69,9 @@ HUMAN.COLS = c(human.100, human.80, human.60, human.40, human.20)
 gold.10 = rgb(247, 244, 238, maxColorValue=255)
 gold.100 = rgb(145, 105, 70, maxColorValue = 255)
 blk = rgb(0, 0, 0, maxColorValue = 255)
+grey = rgb(180, 180, 180, maxColorValue = 255)
+# pink = rgb(134, 45, 134, maxColorValue = 255)
+pink = rgb(4, 89, 96, maxColorValue = 255)
 
 vgg.100 = rgb(0, 105, 170, maxColorValue = 255)
 alexnet.100 = rgb(65, 90, 140, maxColorValue = 255)
@@ -615,12 +619,12 @@ plot.consistency = function(dat, method=c("consistency", "kappa"),
           col = "black"
         } else {
           pch = 4
-          col = gold.100
+          col = pink
         }
         consistency = consistency.analysis(dat, obs1=subj1$data.name, obs2 = subj2$data.name)
         p = data.frame(x=consistency[x.value.name][1,1],
                        y=consistency[y.value.name][1,1],
-                       pch=pch, col=col, bg=gold.100,
+                       pch=pch, col=col, bg=pink,
                        cex=cnn.to.cnn.cex)
         cnn.data = rbind(cnn.data, p)
         if(consistency[y.value.name][1,1] > max.consistency) {
@@ -656,7 +660,7 @@ plot.consistency = function(dat, method=c("consistency", "kappa"),
           col = "black"
         } else {
           pch = 8
-          col = blk
+          col = gold.100
         }
         consistency = consistency.analysis(dat, obs1=subj1$data.name, obs2 = subj2$data.name)
         p = data.frame(x=consistency[x.value.name][1,1],
@@ -762,11 +766,11 @@ plot.consistency = function(dat, method=c("consistency", "kappa"),
       } else {
         name.values = c(name.values, "CNNs vs. CNNs")
         pch.values = c(pch.values, 4)
-        col.values = c(col.values, gold.100)
+        col.values = c(col.values, pink)
 
         name.values = c(name.values, "ViTs vs. ViTs")
         pch.values = c(pch.values, 8)
-        col.values = c(col.values, blk)
+        col.values = c(col.values, gold.100)
       }
     }
     for(subj in PLOT.SUBJECTS) {
