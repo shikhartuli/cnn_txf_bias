@@ -88,6 +88,41 @@ for(dataset in DATASET.LIST) {
 }
 
 ###################################################################
+#    PLOT ERROR CONSISTENCY ANALYSES ONLY FOR RESNET AND VIT
+###################################################################
+
+DATASET.LIST = list(edgedat, sildat, cueconfdat)
+
+figure.width = 5.0
+figure.height = 5.0
+
+for(dataset in DATASET.LIST) {
+  dataset.name = as.character(unique(dataset$experiment.name))
+  print(dataset.name)
+  if(length(dataset.name)>1) {
+    stop("dataset name mismatch")
+  }
+  dataset.path = paste(FIGUREPATH, dataset.name, sep="/")
+  if(!dir.exists(dataset.path)) {
+    dir.create(dataset.path)
+    print(paste("creating directory ", dataset.path, sep=""))
+  }
+  for(method in c("consistency", "kappa")) {
+    pdf(file=paste(dataset.path, "/", dataset.name, "_", method, "_resnet-vit.pdf", sep=""), 
+        width=figure.width, 
+        height=figure.height)
+    PLOT.SUBJECTS_CNN = list(alexnet, vgg, googlenet, resnet, resnet_ft)
+    PLOT.SUBJECTS = list(resnet, resnet_ft, ViT_B_32, ViT_B_32_ft)
+    PLOT.SUBJECTS_ViT = list(ViT_B_16, ViT_L_16, ViT_L_32, ViT_B_32, ViT_B_32_ft)
+    plot.consistency(dataset, method=method, legend.cex=0.9, distinguish.model.families = FALSE,
+                     plot.bound=FALSE,
+                     plot.legend=(method!="consistency"))
+    dev.off()
+  }
+
+}
+
+###################################################################
 #    SAVE COHEN-KAPPA RESULTS
 ###################################################################
 
