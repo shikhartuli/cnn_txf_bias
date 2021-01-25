@@ -71,7 +71,7 @@ gold.100 = rgb(145, 105, 70, maxColorValue = 255)
 blk = rgb(0, 0, 0, maxColorValue = 255)
 grey = rgb(180, 180, 180, maxColorValue = 255)
 # pink = rgb(134, 45, 134, maxColorValue = 255)
-pink = rgb(4, 89, 96, maxColorValue = 255)
+pink = rgb(0, 0, 0, maxColorValue = 255)
 
 vgg.100 = rgb(0, 105, 170, maxColorValue = 255)
 alexnet.100 = rgb(65, 90, 140, maxColorValue = 255)

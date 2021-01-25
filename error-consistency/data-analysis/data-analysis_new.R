@@ -43,49 +43,49 @@ BrainScore = get.brainscore.data(paste(DATAPATH, "brain-score_metrics/", "brains
 ###################################################################
 
 
-# pdf(file=paste(FIGUREPATH, "texture-shape_cue-conflict/texture-shape_cue-conflict_shape-bias.pdf", sep=""), 
-#     width=6.5, 
-#     height=6.5)
-# par(mfrow=c(1,1))
-# # PLOT.SUBJECTS = list(resnet, alexnet, vgg, googlenet, ViT_B_32, ViT_L_16)
-# PLOT.SUBJECTS = list(resnet, resnet_ft, ViT_B_32, ViT_B_32_ft)
-# plot.shape.bias(cueconfdat, plot.legend = TRUE, legend.position="topleft")
-# dev.off()
+pdf(file=paste(FIGUREPATH, "texture-shape_cue-conflict/texture-shape_cue-conflict_shape-bias.pdf", sep=""), 
+    width=6.5, 
+    height=6.5)
+par(mfrow=c(1,1))
+# PLOT.SUBJECTS = list(resnet, alexnet, vgg, googlenet, ViT_B_32, ViT_L_16)
+PLOT.SUBJECTS = list(resnet, resnet_ft, ViT_B_32, ViT_B_32_ft)
+plot.shape.bias(cueconfdat, plot.legend = TRUE, legend.position="topleft")
+dev.off()
 
-# ###################################################################
-# #    PLOT ERROR CONSISTENCY ANALYSES
-# ###################################################################
+###################################################################
+#    PLOT ERROR CONSISTENCY ANALYSES
+###################################################################
 
-# DATASET.LIST = list(edgedat, sildat, cueconfdat)
+DATASET.LIST = list(edgedat, sildat, cueconfdat)
 
-# figure.width = 5.0
-# figure.height = 5.0
+figure.width = 5.0
+figure.height = 5.0
 
-# for(dataset in DATASET.LIST) {
-#   dataset.name = as.character(unique(dataset$experiment.name))
-#   print(dataset.name)
-#   if(length(dataset.name)>1) {
-#     stop("dataset name mismatch")
-#   }
-#   dataset.path = paste(FIGUREPATH, dataset.name, sep="/")
-#   if(!dir.exists(dataset.path)) {
-#     dir.create(dataset.path)
-#     print(paste("creating directory ", dataset.path, sep=""))
-#   }
-#   for(method in c("consistency", "kappa")) {
-#     pdf(file=paste(dataset.path, "/", dataset.name, "_", method, "_four_networks.pdf", sep=""), 
-#         width=figure.width, 
-#         height=figure.height)
-#     PLOT.SUBJECTS_CNN = list(alexnet, vgg, googlenet, resnet)
-#     PLOT.SUBJECTS = list(alexnet, vgg, googlenet, resnet, resnet_ft, ViT_B_32, ViT_B_32_ft)
-#     PLOT.SUBJECTS_ViT = list(ViT_B_16, ViT_B_32, ViT_L_16, ViT_L_32)
-#     plot.consistency(dataset, method=method, legend.cex=0.9, distinguish.model.families = FALSE,
-#                      plot.bound=FALSE,
-#                      plot.legend=(method!="consistency"))
-#     dev.off()
-#   }
+for(dataset in DATASET.LIST) {
+  dataset.name = as.character(unique(dataset$experiment.name))
+  print(dataset.name)
+  if(length(dataset.name)>1) {
+    stop("dataset name mismatch")
+  }
+  dataset.path = paste(FIGUREPATH, dataset.name, sep="/")
+  if(!dir.exists(dataset.path)) {
+    dir.create(dataset.path)
+    print(paste("creating directory ", dataset.path, sep=""))
+  }
+  for(method in c("consistency", "kappa")) {
+    pdf(file=paste(dataset.path, "/", dataset.name, "_", method, "_four_networks.pdf", sep=""), 
+        width=figure.width, 
+        height=figure.height)
+    PLOT.SUBJECTS_CNN = list(alexnet, vgg, googlenet, resnet)
+    PLOT.SUBJECTS = list(alexnet, vgg, googlenet, resnet, resnet_ft, ViT_B_32, ViT_B_32_ft)
+    PLOT.SUBJECTS_ViT = list(ViT_B_16, ViT_B_32, ViT_L_16, ViT_L_32)
+    plot.consistency(dataset, method=method, legend.cex=0.9, distinguish.model.families = FALSE,
+                     plot.bound=FALSE,
+                     plot.legend=(method!="consistency"))
+    dev.off()
+  }
 
-# }
+}
 
 ###################################################################
 #    PLOT ERROR CONSISTENCY ANALYSES ONLY FOR RESNET AND VIT
@@ -126,41 +126,41 @@ for(dataset in DATASET.LIST) {
 #    SAVE COHEN-KAPPA RESULTS
 ###################################################################
 
-# DATASET.LIST = list(edgedat, sildat, cueconfdat)
+DATASET.LIST = list(edgedat, sildat, cueconfdat)
 
-# figure.width = 5.0
-# figure.height = 5.0
+figure.width = 5.0
+figure.height = 5.0
 
-# for(dataset in DATASET.LIST) {
-#   dataset.name = as.character(unique(dataset$experiment.name))
-#   print(dataset.name)
-#   if(length(dataset.name)>1) {
-#     stop("dataset name mismatch")
-#   }
-#   dataset.path = paste(FIGUREPATH, dataset.name, sep="/")
-#   if(!dir.exists(dataset.path)) {
-#     dir.create(dataset.path)
-#     print(paste("creating directory ", dataset.path, sep=""))
-#   }
-#   for(method in c("kappa")) { 
-#     MODELS = list(ViT_B_32, ViT_B_32_ft, resnet, resnet_ft)
+for(dataset in DATASET.LIST) {
+  dataset.name = as.character(unique(dataset$experiment.name))
+  print(dataset.name)
+  if(length(dataset.name)>1) {
+    stop("dataset name mismatch")
+  }
+  dataset.path = paste(FIGUREPATH, dataset.name, sep="/")
+  if(!dir.exists(dataset.path)) {
+    dir.create(dataset.path)
+    print(paste("creating directory ", dataset.path, sep=""))
+  }
+  for(method in c("kappa")) { 
+    MODELS = list(ViT_B_32, ViT_B_32_ft, resnet, resnet_ft)
 
-#     y.value.name = "cohens.kappa"
-#     x.value.name = "expected.consistency"
+    y.value.name = "cohens.kappa"
+    x.value.name = "expected.consistency"
 
-#     s_no <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-#     df <- data.frame(s_no)
+    s_no <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    df <- data.frame(s_no)
 
-#     for(model in MODELS) {
-#     	kappas = c()
-#         for(subj1 in unique(dataset[dataset$is.human==TRUE, ]$subj)) {
-#         consistency = consistency.analysis(dataset, obs1=subj1, obs2 = model$data.name)
-#         kappas <- c(kappas, consistency[y.value.name][1,1])
-#         print(paste("Model: ", model$name, " ", "Cohen's kappa: ", consistency[y.value.name][1,1], sep=""))
-#         }
-#         df[model$list.name] <- kappas
-#     } 
-#     write.csv(df, paste(dataset.path, "/", dataset.name, "_", method, ".csv", sep=""), row.names=FALSE)
-#   }
+    for(model in MODELS) {
+    	kappas = c()
+        for(subj1 in unique(dataset[dataset$is.human==TRUE, ]$subj)) {
+        consistency = consistency.analysis(dataset, obs1=subj1, obs2 = model$data.name)
+        kappas <- c(kappas, consistency[y.value.name][1,1])
+        print(paste("Model: ", model$name, " ", "Cohen's kappa: ", consistency[y.value.name][1,1], sep=""))
+        }
+        df[model$list.name] <- kappas
+    } 
+    write.csv(df, paste(dataset.path, "/", dataset.name, "_", method, ".csv", sep=""), row.names=FALSE)
+  }
   
-# }
+}
