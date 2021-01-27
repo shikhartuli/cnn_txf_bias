@@ -84,15 +84,18 @@ googlenet.100 = rgb(80, 170, 200, maxColorValue = 255)
 alexnet = list(name="AlexNet",
                color="#916946",
                pch=22,
-               data.name="alexnet")
+               data.name="alexnet",
+               list.name="AlexNet")
 googlenet = list(name="GoogLeNet",
                  color="#B4A096",
                  pch=21,
-                 data.name="inception-v3")
+                 data.name="inception-v3",
+                 list.name="GoogleNet")
 vgg = list(name="VGG-16",
            color="#238b45",
            pch=24,
-           data.name="vgg16-bn")
+           data.name="vgg16-bn",
+           list.name="VGG-16")
 resnet = list(name="ResNet-50",
               color="#4292c6",
               pch=21,
@@ -102,7 +105,7 @@ resnet_ft = list(name="ResNet-50(ft.)",
               color="#296389",
               pch=21,
               data.name="resnet50_ft",
-              list.name="ResNet-50_ft")
+              list.name="ResNet-50(ft.)")
 cornet.S = list(name="CORnet-S",
                 color="#D29600",
                 pch=21,
@@ -111,12 +114,12 @@ ViT_B_32 = list(name="ViT-B_32",
             color="#F1C40F",
             pch=25,
             data.name="ViT-B_32",
-            list.name="ViT-B_32")
+            list.name="ViT-B/32")
 ViT_B_32_ft = list(name="ViT-B_32(ft.)",
             color="#E67E22",
             pch=25,
             data.name="ViT-B_32_ft",
-            list.name="ViT-B_32_ft")
+            list.name="ViT-B/32(ft.)")
 ViT_L_16 = list(name="ViT-L_16",
             color="#E67E22",
             pch=25,

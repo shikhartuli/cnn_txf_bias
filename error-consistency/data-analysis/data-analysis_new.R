@@ -52,9 +52,9 @@ PLOT.SUBJECTS = list(resnet, resnet_ft, ViT_B_32, ViT_B_32_ft)
 plot.shape.bias(cueconfdat, plot.legend = TRUE, legend.position="topleft")
 dev.off()
 
-###################################################################
-#    PLOT ERROR CONSISTENCY ANALYSES
-###################################################################
+# ###################################################################
+# #    PLOT ERROR CONSISTENCY ANALYSES
+# ###################################################################
 
 DATASET.LIST = list(edgedat, sildat, cueconfdat)
 
@@ -87,9 +87,9 @@ for(dataset in DATASET.LIST) {
 
 }
 
-###################################################################
-#    PLOT ERROR CONSISTENCY ANALYSES ONLY FOR RESNET AND VIT
-###################################################################
+# ###################################################################
+# #    PLOT ERROR CONSISTENCY ANALYSES ONLY FOR RESNET AND VIT
+# ###################################################################
 
 DATASET.LIST = list(edgedat, sildat, cueconfdat)
 
@@ -143,7 +143,7 @@ for(dataset in DATASET.LIST) {
     print(paste("creating directory ", dataset.path, sep=""))
   }
   for(method in c("kappa")) { 
-    MODELS = list(ViT_B_32, ViT_B_32_ft, resnet, resnet_ft)
+    MODELS = list(ViT_B_32, ViT_B_32_ft, resnet, resnet_ft, alexnet, vgg, googlenet)
 
     y.value.name = "cohens.kappa"
     x.value.name = "expected.consistency"
