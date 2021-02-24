@@ -1,4 +1,3 @@
 vision_transformer/tensorflow_datasets_subset
 vision_transformer/tensorflow_datasets
-*.pkl
 *.ini
