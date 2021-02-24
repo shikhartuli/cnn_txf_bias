@@ -3330,3 +3330,116 @@ Unfortunately, your original traceback can not be constructed.
 2021-01-17 12:19:31,697 [INFO] absl: Load dataset info from /tmp/tmpjmix2s9otfds
 2021-01-17 12:19:31,714 [INFO] absl: Field info.description from disk and from code do not match. Keeping the one from code.
 2021-01-17 12:19:31,720 [INFO] absl: Field info.module_name from disk and from code do not match. Keeping the one from code.
+2021-02-24 09:45:50,275 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2021-02-24 09:45:51,913 [INFO] absl: Load dataset info from /tmp/tmp8zlqf0_atfds
+2021-02-24 09:45:51,918 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2021-02-24 09:45:51,925 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2021-02-24 09:45:52,334 [INFO] absl: Load dataset info from /tmp/tmpoq6hrkjgtfds
+2021-02-24 09:45:52,340 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2021-02-24 09:45:52,344 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2021-02-24 09:45:52,776 [INFO] absl: Load dataset info from /tmp/tmpxy3km465tfds
+2021-02-24 09:45:52,782 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2021-02-24 09:45:52,784 [INFO] absl: Generating dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 09:45:53,396 [INFO] absl: Downloading https://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz into /root/tensorflow_datasets/downloads/cs.toronto.edu_kriz_cifar-10-binaryODHPtIjLh3oLcXirEISTO7dkzyKjRCuol6lV8Wc6C7s.tar.gz.tmp.ea1fce37f34441aba1d92800f9b0304e...
+2021-02-24 09:45:53,409 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.cs.toronto.edu:443
+2021-02-24 09:45:53,800 [DEBUG] urllib3.connectionpool: https://www.cs.toronto.edu:443 "GET /~kriz/cifar-10-binary.tar.gz HTTP/1.1" 200 170052171
+2021-02-24 09:46:02,221 [INFO] absl: Generating split train
+2021-02-24 09:46:38,094 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incomplete43JD09/cifar10-train.tfrecord. Shard lengths: [50000]
+2021-02-24 09:46:38,099 [INFO] absl: Generating split test
+2021-02-24 09:46:45,472 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incomplete43JD09/cifar10-test.tfrecord. Shard lengths: [10000]
+2021-02-24 09:46:45,477 [INFO] absl: Skipping computing stats for mode ComputeStatsMode.SKIP.
+2021-02-24 09:46:45,482 [INFO] absl: Constructing tf.data.Dataset for split train[:98%], from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:46:46,357 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:46:46,365 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:46:46,369 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 09:46:46,370 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:48:11,766 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:48:11,772 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:48:11,777 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 09:48:11,778 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:48:12,943 [DEBUG] absl: Compiling _fold_in for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True)).
+2021-02-24 09:48:13,448 [DEBUG] absl: Compiling _truncated_normal for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(int32[], weak_type=True)).
+2021-02-24 09:48:13,995 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2021-02-24 09:48:14,442 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2021-02-24 09:48:14,741 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2021-02-24 09:48:14,896 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2021-02-24 09:48:15,159 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2021-02-24 09:48:15,312 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2021-02-24 09:50:27,987 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:50:27,993 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:50:27,998 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 09:50:28,000 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:52:04,516 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:52:04,522 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 09:52:04,531 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 09:52:04,532 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:01:06,034 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:01:06,040 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:01:06,046 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 10:01:06,047 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:41:14,131 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:41:14,141 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:41:14,147 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 10:41:14,149 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:41:39,872 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:41:39,878 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:41:39,883 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 10:41:39,885 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:44:30,449 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:44:30,455 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:44:30,459 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 10:44:30,461 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:45:06,612 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:45:06,618 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:45:06,623 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 10:45:06,624 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:49:36,743 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:49:36,749 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:49:36,753 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 10:49:36,755 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:50:52,389 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:50:52,395 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:50:52,399 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 10:50:52,400 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:54:08,923 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:54:08,929 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 10:54:08,933 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 10:54:08,934 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 11:39:43,602 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2021-02-24 11:39:44,113 [INFO] absl: Load dataset info from /tmp/tmpsx961c_ktfds
+2021-02-24 11:39:44,118 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2021-02-24 11:39:44,122 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2021-02-24 11:39:44,282 [INFO] absl: Load dataset info from /tmp/tmpv4b_876ktfds
+2021-02-24 11:39:44,287 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2021-02-24 11:39:44,290 [INFO] absl: Load pre-computed DatasetInfo (eg: splits, num examples,...) from GCS: cifar10/3.0.2
+2021-02-24 11:39:44,434 [INFO] absl: Load dataset info from /tmp/tmpwqgw16petfds
+2021-02-24 11:39:44,439 [INFO] absl: Field info.citation from disk and from code do not match. Keeping the one from code.
+2021-02-24 11:39:44,443 [INFO] absl: Generating dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 11:39:44,776 [INFO] absl: Downloading https://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz into /root/tensorflow_datasets/downloads/cs.toronto.edu_kriz_cifar-10-binaryODHPtIjLh3oLcXirEISTO7dkzyKjRCuol6lV8Wc6C7s.tar.gz.tmp.c2132736b73f4e119527a3f614692567...
+2021-02-24 11:39:44,783 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.cs.toronto.edu:443
+2021-02-24 11:39:44,892 [DEBUG] urllib3.connectionpool: https://www.cs.toronto.edu:443 "GET /~kriz/cifar-10-binary.tar.gz HTTP/1.1" 200 170052171
+2021-02-24 11:40:01,067 [INFO] absl: Generating split train
+2021-02-24 11:40:29,488 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incomplete401V9K/cifar10-train.tfrecord. Shard lengths: [50000]
+2021-02-24 11:40:29,507 [INFO] absl: Generating split test
+2021-02-24 11:40:35,267 [INFO] absl: Done writing /root/tensorflow_datasets/cifar10/3.0.2.incomplete401V9K/cifar10-test.tfrecord. Shard lengths: [10000]
+2021-02-24 11:40:35,271 [INFO] absl: Skipping computing stats for mode ComputeStatsMode.SKIP.
+2021-02-24 11:40:35,275 [INFO] absl: Constructing tf.data.Dataset for split train[:98%], from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 11:40:35,805 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 11:40:35,810 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 11:40:35,815 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 11:40:35,815 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 11:40:41,604 [DEBUG] absl: Compiling _fold_in for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True)).
+2021-02-24 11:40:42,134 [DEBUG] absl: Compiling _truncated_normal for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(int32[], weak_type=True)).
+2021-02-24 11:40:42,696 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2021-02-24 11:40:43,074 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2021-02-24 11:40:43,320 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2021-02-24 11:40:43,449 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2021-02-24 11:40:43,667 [DEBUG] absl: Compiling _uniform for args (ShapedArray(uint32[2]), ShapedArray(int32[], weak_type=True), ShapedArray(float32[], weak_type=True)).
+2021-02-24 11:40:43,810 [DEBUG] absl: Compiling _normal for args (ShapedArray(uint32[2]),).
+2021-02-24 11:40:49,516 [WARNING] vit_jax.logging: Inspect recovered empty keys:
+{'pre_logits'}
+2021-02-24 11:40:49,519 [INFO] vit_jax.logging: load_pretrained: drop-head variant
+2021-02-24 11:40:49,597 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 11:40:49,601 [INFO] absl: Load dataset info from /root/tensorflow_datasets/cifar10/3.0.2
+2021-02-24 11:40:49,605 [INFO] absl: Reusing dataset cifar10 (/root/tensorflow_datasets/cifar10/3.0.2)
+2021-02-24 11:40:49,606 [INFO] absl: Constructing tf.data.Dataset for split test, from /root/tensorflow_datasets/cifar10/3.0.2
