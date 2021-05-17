@@ -15,3 +15,7 @@ This work compares CNNs and the ViT against humans in terms of error consistency
 You can directly run tests on the results using a Google Colaboratory without needing to install anything on your local machine. Click "Open in Colab" below:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shikhartuli/cnn_txf_bias/blob/main/tests/confusion_matrices.ipynb)
+
+## Developer
+
+[Shikhar Tuli](https://github.com/shikhartuli). For any questions, comments or suggestions, please reach me at [stuli@princeton.edu](mailto:stuli@princeton.edu).
