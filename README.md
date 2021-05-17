@@ -6,7 +6,7 @@
 
 This repository contains the code and fine-tuned models of popular Convolutional Neural Networks (CNNs) and the recently proposed Vision Transformer (ViT) on the augmented Imagenet dataset and the shape/texture bias tests run on the Stylized Imagenet dataset.
 
-This work compares CNNs and the ViT against humans in terms of error consistency beyond traditional metrics. Through these tests, we were able to show that recently proposed self-attention based Transformer models have more human-like errors that trasitional CNNs.
+This work compares CNNs and the ViT against humans in terms of error consistency beyond traditional metrics. Through these tests, we were able to show that recently proposed self-attention based Transformer models have more human-like errors that traditional CNNs.
 
 ![Illustration](https://github.com/shikhartuli/cnn_txf_bias/blob/main/CNN_vs_Human.png?raw=true)
 
