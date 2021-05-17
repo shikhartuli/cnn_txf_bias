@@ -1,8 +1,9 @@
-# Data and analysis code from "Beyond accuracy: quantifying trial-by-trial behaviour of CNNs and humans by measuring error consistency"
+# Cohen's κ for error consistency
 
-Error consistency is a quantitative analysis for measuring whether two decision making systems systematically make errors on the same inputs. The paper is available on [arXiv](https://arxiv.org/abs/2006.16736).
+Error consistency is a quantitative analysis for measuring whether two decision making systems systematically make errors on the same inputs. The paper is available on [arXiv](https://arxiv.org/abs/2006.16736). The code is from [wichmann-lab/error-consistency](https://github.com/wichmann-lab/error-consistency) repository.
 
-## dependencies
+## Dependencies
+
 The R analysis scripts have the following dependencies which can be installed via ``install.packages("package-name")``. Data analysis was performed using R version `3.5.1`.
 
 	library(lattice)
@@ -26,9 +27,10 @@ The R analysis scripts have the following dependencies which can be installed vi
 	library(viridis)
 	library(binom)
 
-## raw-data
-Experiments with the prefix `noise-generalisation` are from this [paper](http://papers.nips.cc/paper/7982-generalisation-in-humans-and-deep-neural-networks.pdf); the raw data is copied from the corresponding [github repository](https://github.com/rgeirhos/generalisation-humans-DNNs). 
-Experiments with the prefix `texture-shape` are from this [paper](https://openreview.net/forum?id=Bygh9j09KX); the raw data is copied from the corresponding [github repository](https://github.com/rgeirhos/texture-vs-shape).
+## Raw-data
 
+Experiments with the prefix `texture-shape`, that were used in this paper, are from [here](https://openreview.net/forum?id=Bygh9j09KX); the raw data is copied from the corresponding repository: [rgeirhos/texture-vs-shape](https://github.com/rgeirhos/texture-vs-shape).
 
+## Results
 
+Results after running error consistency experiments for pre-trained and fine-tuned CNNs and ViTs are available at [results/figures_new_ft](https://github.com/shikhartuli/cnn_txf_bias/tree/main/error-consistency/figures_new_ft).
