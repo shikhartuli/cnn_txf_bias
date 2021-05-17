@@ -1,8 +1,14 @@
-# Inductive biases in CNNs and Transformers
+# Are Convolutional Neural Networks or Transformers more like human vision?
+
+![Python Version](https://img.shields.io/badge/python-v3.6%20%7C%20v3.7%20%7C%20v3.8-blue)
+![Tensorflow](https://img.shields.io/badge/tensorflow-v2.4-orange)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fshikhartuli%2Fcnn_txf_bias&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
+
+This repository contains the code and fine-tuned models of popular Convolutional Neural Networks (CNNs) and the recently proposed Vision Transformer (ViT) on the augmented Imagenet dataset and the shape/texture bias tests run on the Stylized Imagenet dataset.
+
+This work compares CNNs and the ViT against humans in terms of error consistency beyond traditional metrics. Through these tests, we were able to show that recently proposed self-attention based Transformer models have more human-like errors that trasitional CNNs.
 
 ![Illustration](https://github.com/shikhartuli/cnn_txf_bias/blob/main/CNN_vs_Human.png?raw=true)
-
-COS454 course project on the study of how human inductive biases can improve performance and training time in modern vision systems. 
 
 ## Colab
 
