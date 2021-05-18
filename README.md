@@ -19,3 +19,17 @@ You can directly run tests on the results using a Google Colaboratory without ne
 ## Developer
 
 [Shikhar Tuli](https://github.com/shikhartuli). For any questions, comments or suggestions, please reach me at [stuli@princeton.edu](mailto:stuli@princeton.edu).
+
+## Cite this work
+
+If you use our experimental results or fine-tuned models, please cite:
+```
+@article{tuli2021cogsci,
+      title={Are Convolutional Neural Networks or Transformers more like human vision?}, 
+      author={Shikhar Tuli and Ishita Dasgupta and Erin Grant and Thomas L. Griffiths},
+      year={2021},
+      eprint={2105.07197},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
